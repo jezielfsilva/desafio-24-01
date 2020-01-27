@@ -30,7 +30,7 @@ html {
 }
 
 .main-title {
-    width: 10%;
+    width: 16%;
 }
 
 .box-list {
@@ -40,8 +40,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    color: #00ca88;
+    color: #00CA88;
     text-shadow: 1px 1px 1px #00000029;
+    font-size: 1.625rem;
+    font-family: 'Concert One', cursive;
 }
 
 .container-page {
@@ -52,15 +54,15 @@ html {
 .box-home {
     width: 100%;
     min-height: 90vh;
-    background-image: url('https://cdn.vidanimal.com.br/wp-content/uploads/focinho-de-cachorro3.jpg');
+    background-image: url('https://public-v2links.adobecc.com/3a8d0dae-5436-4cc5-5f6b-63d1673aec1d/component?params=component_id%3A59dc26dc-fb47-4d1c-9932-d4a5a5857aeb&params=version%3A0&token=1580231918_da39a3ee_b72a01634f5edc45f911d23ad159910086743132&api_key=CometServer1');
     background-size: cover;
-    background-position-y: 54rem;
+    background-position-y: 38rem;
 }
 
 .home-container {
     width: 100%;
     min-height: 90vh;
-    background-color: #00ca8860;
+    background-color: #00B77A60;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,7 +94,7 @@ html {
 .click {
     width: 30%;
     min-height: 2.6rem;
-    background-color: #00ca88;
+    background-color: #00CA88;
     color: white;
     border-radius: 1.2rem;
     border-style: none;
@@ -105,7 +107,7 @@ html {
     width: 48%;
     min-height: 2.6rem;
     background-color: white;
-    color:  #00ca88;
+    color:  #00CA88;
     border-radius: 1.2rem;
     border-style: none;
     font-size: 1.8rem;
