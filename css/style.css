@@ -43,7 +43,7 @@ html {
     color: #00CA88;
     text-shadow: 1px 1px 1px #00000029;
     font-size: 1.625rem;
-    font-family: 'Concert One', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .container-page {
@@ -54,7 +54,7 @@ html {
 .box-home {
     width: 100%;
     min-height: 90vh;
-    background-image: url('https://public-v2links.adobecc.com/3a8d0dae-5436-4cc5-5f6b-63d1673aec1d/component?params=component_id%3A59dc26dc-fb47-4d1c-9932-d4a5a5857aeb&params=version%3A0&token=1580231918_da39a3ee_b72a01634f5edc45f911d23ad159910086743132&api_key=CometServer1');
+    background-image: url('../assets/screens/cachorro.png');
     background-size: cover;
     background-position-y: 38rem;
 }
@@ -64,27 +64,66 @@ html {
     min-height: 90vh;
     background-color: #00B77A60;
     display: flex;
+}
+
+.side-box {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box-images {
+    width: 45%;
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.side-line {
+    width: 1%;
+    min-height: 18vh;
+    background-color: white;
+}
+
+.side-text {
+    font-size: 1.25rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px #00000029;
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+}
+
+.box-content {
+    width: 76%;
+    min-height: 45vh;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .title-two {
     color: white;
-    font-size: 6rem;
     min-height: 8rem;
     text-shadow: 1px 1px 1px #00000029;
+    font-size: 4.6875rem;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .text, .text-two {
     color: rgb(255, 255, 255);
-    font-size: 1.7rem;
+    font-size: 1.375rem;
     width: 72%;
     display: flex;
     justify-content: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .box-buttons {
-    width: 60%;
+    width: 76%;
     min-height: 4rem;
     display: flex;
     align-items: center;
@@ -98,9 +137,10 @@ html {
     color: white;
     border-radius: 1.2rem;
     border-style: none;
-    font-size: 1.8rem;
+    font-size: 1.375rem;
     text-shadow: 1px 1px 1px #00000029;
     box-shadow: 1px 1px 1px #00000029;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .click-two {
@@ -110,12 +150,21 @@ html {
     color:  #00CA88;
     border-radius: 1.2rem;
     border-style: none;
-    font-size: 1.8rem;
+    font-size: 1.375rem;
     text-shadow: 1px 1px 1px #00000029;
     box-shadow: 1px 1px 1px #00000029;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .box-about {
     width: 100%;
     min-height: 90vh;
+    display: flex;
+}
+
+.title-tree {
+    font-size: 4rem;
+    color:  #00CA88;
+    text-shadow: 1px 1px 1px #00000029;
+    font-family: 'Quicksand', sans-serif;
 }
