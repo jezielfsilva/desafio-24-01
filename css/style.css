@@ -160,6 +160,12 @@ html {
     width: 100%;
     min-height: 90vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-texts {
+    width: 40%;
 }
 
 .title-tree {
@@ -167,4 +173,12 @@ html {
     color:  #00CA88;
     text-shadow: 1px 1px 1px #00000029;
     font-family: 'Quicksand', sans-serif;
+}
+
+.box-image {
+    width: 40%;
+}
+
+.photo {
+    width: 60%;
 }
